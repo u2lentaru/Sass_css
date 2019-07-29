@@ -60,13 +60,14 @@ main h2 {
     background-color: #445161;
 }
 
-.dignity {
+/*.dignity {
     /*display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;*/
+    flex-wrap: wrap;
+}*/
 /*    background-color: #aaa;*/
-}
+
 
 .dignity h3 {
     font-size: 25px;
