@@ -2,7 +2,7 @@
 
 header
     display: flex
-    background-color: #445162
+    background-color: $main_bgc
     justify-content: space_between
 
 .product
@@ -48,7 +48,7 @@ main
     height: 245px
     margin-top: 50px
     margin-right: 50px
-    background-color: #445161    
+    background-color: $main_bgc    
 
 .dignity
     h3 
@@ -82,9 +82,12 @@ main
     font-size: 25px
     font-family: $fontfamily
 
-.scr_main
+.dflexcolumn
     display: flex
     flex-direction: column
+
+.scr_main
+    @extend .dflexcolumn
     h3 
         display: flex
         align-content: flex-start
@@ -107,8 +110,7 @@ figure
     padding: 5px
 
 .reviews
-    display: flex
-    flex-direction: column
+    @extend .dflexcolumn
     h3 
         display: flex
         align-content: flex-start
@@ -143,10 +145,9 @@ figure
     margin-bottom: 50px
 
 .bins
-    display: flex
-    flex-direction: column
+    @extend .dflexcolumn
     border: 2px solid
-    background-color: #445162
+    background-color: $main_bgc
     border-radius: 7px
     ol 
         color: white
@@ -173,10 +174,9 @@ figure
     padding: 10px
 
 .binp
-    display: flex
-    flex-direction: column
+    @extend .dflexcolumn
     border: 2px solid
-    background-color: #445162
+    background-color: $main_bgc
     border-radius: 7px
     ol 
         color: white
@@ -203,10 +203,9 @@ figure
     padding: 10px
         
 .binl
-    display: flex
-    flex-direction: column
+    @extend .dflexcolumn
     border: 2px solid
-    background-color: #445162
+    background-color: $main_bgc
     border-radius: 7px
     ol 
         color: white
@@ -233,15 +232,14 @@ figure
     padding: 10px
 
 footer 
-    display: flex
-    flex-direction: column
+    @extend .dflexcolumn
     justify-content: center
     align-items: center
     align-content: space-around
     font-size: 25px
     font-family: $fontfamily
     padding: 50px
-    background-color: #445162
+    background-color: $main_bgc
     color: white
     button
         margin: 20px

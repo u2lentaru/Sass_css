@@ -73,7 +73,7 @@ main h2 {
   height: 245px;
   margin-top: 50px;
   margin-right: 50px;
-  background-color: #445161;
+  background-color: #445162;
 }
 
 .dignity h3 {
@@ -124,7 +124,7 @@ main h2 {
   font-family: Arial;
 }
 
-.scr_main {
+.dflexcolumn, .scr_main, .reviews, .bins, .binp, .binl, footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -172,16 +172,6 @@ figure {
   display: flex;
   font-size: 17px;
   padding: 5px;
-}
-
-.reviews {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .reviews h3 {
@@ -249,13 +239,6 @@ figure {
 }
 
 .bins {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   border: 2px solid;
   background-color: #445162;
   border-radius: 7px;
@@ -303,13 +286,6 @@ figure {
 }
 
 .binp {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   border: 2px solid;
   background-color: #445162;
   border-radius: 7px;
@@ -357,13 +333,6 @@ figure {
 }
 
 .binl {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   border: 2px solid;
   background-color: #445162;
   border-radius: 7px;
@@ -411,13 +380,6 @@ figure {
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
