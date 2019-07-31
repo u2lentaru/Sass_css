@@ -259,12 +259,23 @@ figure
         position: relative
         top: 1px
 
+
+footer 
+    display: flex
+    flex-direction: column
+    background-color: $main_bgc
+    color: white
+    h3 
+        display: flex
+        align-content: flex-start
+        justify-content: center
+    
 .footer_block
     display: flex
     flex-wrap: wrap
     justify-content: center
     align-content: space-around
-    font-size: 25px
+    font-size: 20px
     font-family: $fontfamily
     padding: 50px
     background-color: $main_bgc
@@ -272,8 +283,10 @@ figure
     form
         display: flex
         flex-direction: column
-        justify-content: center
+        justify-items: center
         button
+            display: flex
+            justify-content: center
             margin: 20px
         button:hover
             background: none
