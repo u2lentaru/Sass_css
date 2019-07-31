@@ -259,17 +259,20 @@ figure
         position: relative
         top: 1px
 
-footer 
+.footer_block
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    align-content: space-around
+    font-size: 25px
+    font-family: $fontfamily
+    padding: 50px
+    background-color: $main_bgc
+    color: white
     form
-        @extend .dflexcolumn
+        display: flex
+        flex-direction: column
         justify-content: center
-        align-items: center
-        align-content: space-around
-        font-size: 25px
-        font-family: $fontfamily
-        padding: 50px
-        background-color: $main_bgc
-        color: white
         button
             margin: 20px
         button:hover
@@ -280,11 +283,71 @@ footer
             margin: 20px
             border-radius: 7px
             height: 25px
-            width: 50%
         textarea
-            width: 50%
             margin: 20px
             border-radius: 7px
+    .social
+        width: 240px
+        color: #fff 
+        margin-top: 0px        
+    ul 
+        list-style-type: none
+        display: flex
+        flex-direction: column
+        align-content: center
+        li 
+            margin-bottom: 18px
+    .skype
+        background: url("../img/skype_icon.png") no-repeat left center
+        line-height: 26px
+        padding-left: 29px
+    .icq
+        background: url("../img/icq_icon.png") no-repeat left center
+        line-height: 26px
+        padding-left: 30px
+    .email
+        background: url("../img/email_icon.png") no-repeat left center
+        line-height: 22px
+        padding-left: 30px
+    .phone
+        background: url("../img/phone_icon.png") no-repeat left center
+        line-height: 23px
+        padding-left: 30px
+        margin-bottom: 0
+    .follow_us ul 
+        display: flex
+        flex-wrap: wrap
+        flex-direction: row
+        justify-content: space-between
+        list-style-type: none
+        margin-top: 37px
+        li
+            width: 42px
+            height: 42px
+            border-radius: 42px
+            cursor: pointer
+            transition: all .3s ease
+        li:hover 
+            background-color: #46DBFF
+            transition: all .3s ease
+
+        .tw
+            background-image: url("../img/social_buttons.png")
+            background-position-x: -1px
+        .fb
+            background-image: url("../img/social_buttons.png")
+            background-position-x: -50px
+        .in
+            background-image: url("../img/social_buttons.png")
+            background-position-x: -99px
+        .google
+            background-image: url("../img/social_buttons.png")
+            background-position-x: -149px
+        .you
+            background-image: url("../img/social_buttons.png")
+            background-position-x: -198px
+
+
 
 
   
