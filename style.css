@@ -289,6 +289,18 @@ figure {
   padding: 10px;
 }
 
+.bins_butt button:hover {
+  background: none;
+  color: #ffffff;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.bins_butt button:hover:active {
+  position: relative;
+  top: 1px;
+}
+
 .binp {
   border: 2px solid;
   background-color: #445162;
@@ -334,6 +346,18 @@ figure {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 10px;
+}
+
+.binp_butt button:hover {
+  background: none;
+  color: #ffffff;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.binp_butt button:hover:active {
+  position: relative;
+  top: 1px;
 }
 
 .binl {
@@ -383,6 +407,18 @@ figure {
   padding: 10px;
 }
 
+.binl_butt button:hover {
+  background: none;
+  color: #ffffff;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.binl_butt button:hover:active {
+  position: relative;
+  top: 1px;
+}
+
 footer form {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -401,6 +437,13 @@ footer form {
 
 footer form button {
   margin: 20px;
+}
+
+footer form button:hover {
+  background: none;
+  color: #ffffff;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
 footer form input {
