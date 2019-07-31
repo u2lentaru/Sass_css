@@ -128,7 +128,7 @@ main h2 {
   font-family: Arial;
 }
 
-.dflexcolumn, .scr_main, .reviews, .bins, .binp, .binl, footer {
+.dflexcolumn, .scr_main, .reviews, .bins, .binp, .binl, footer form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -383,7 +383,7 @@ figure {
   padding: 10px;
 }
 
-footer {
+footer form {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -399,18 +399,18 @@ footer {
   color: white;
 }
 
-footer button {
+footer form button {
   margin: 20px;
 }
 
-footer input {
+footer form input {
   margin: 20px;
   border-radius: 7px;
   height: 25px;
   width: 50%;
 }
 
-footer textarea {
+footer form textarea {
   width: 50%;
   margin: 20px;
   border-radius: 7px;
