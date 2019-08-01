@@ -448,14 +448,11 @@ footer h3 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
-  font-size: 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 17px;
   font-family: Arial;
-  padding: 50px;
+  padding: 30px;
   background-color: #445162;
   color: white;
 }
@@ -468,6 +465,9 @@ footer h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   justify-items: center;
 }
 
@@ -478,6 +478,7 @@ footer h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  justify-self: center;
   margin: 20px;
 }
 
@@ -500,7 +501,7 @@ footer h3 {
 }
 
 .footer_block .social {
-  width: 240px;
+  width: 270px;
   color: #fff;
   margin-top: 0px;
 }
