@@ -523,31 +523,6 @@ footer h3 {
   margin-bottom: 18px;
 }
 
-.footer_block .skype {
-  background: url("../img/skype_icon.png") no-repeat left center;
-  line-height: 26px;
-  padding-left: 29px;
-}
-
-.footer_block .icq {
-  background: url("../img/icq_icon.png") no-repeat left center;
-  line-height: 26px;
-  padding-left: 30px;
-}
-
-.footer_block .email {
-  background: url("../img/email_icon.png") no-repeat left center;
-  line-height: 22px;
-  padding-left: 30px;
-}
-
-.footer_block .phone {
-  background: url("../img/phone_icon.png") no-repeat left center;
-  line-height: 23px;
-  padding-left: 30px;
-  margin-bottom: 0;
-}
-
 .footer_block .follow_us ul {
   display: -webkit-box;
   display: -ms-flexbox;
