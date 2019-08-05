@@ -128,7 +128,7 @@ main h2 {
   font-family: Arial;
 }
 
-.dflexcolumn, .scr_main, .reviews, .bins, .binp, .binl {
+.dflexcolumn, .scr_main, .reviews, .bins, .binp, .binl, .footer_block form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -446,40 +446,31 @@ footer h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   font-size: 17px;
   font-family: Arial;
-  padding: 30px;
+  padding: 20px;
   background-color: #445162;
   color: white;
 }
 
 .footer_block form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  justify-items: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 
 .footer_block form button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  justify-self: center;
-  margin: 20px;
+  margin: 10px;
 }
 
 .footer_block form button:hover {
@@ -490,13 +481,13 @@ footer h3 {
 }
 
 .footer_block form input {
-  margin: 20px;
+  margin: 10px;
   border-radius: 7px;
-  height: 25px;
+  height: 15px;
 }
 
 .footer_block form textarea {
-  margin: 20px;
+  margin: 10px;
   border-radius: 7px;
 }
 
@@ -506,7 +497,7 @@ footer h3 {
   margin-top: 0px;
 }
 
-.footer_block ul {
+.footer_block .social ul {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -519,7 +510,7 @@ footer h3 {
       align-content: center;
 }
 
-.footer_block ul li {
+.footer_block .social ul li {
   margin-bottom: 18px;
 }
 

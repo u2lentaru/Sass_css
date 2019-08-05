@@ -272,45 +272,42 @@ footer
     
 .footer_block
     display: flex
-    flex-wrap: wrap
     justify-content: space-around
     font-size: 17px
     font-family: $fontfamily
-    padding: 30px
+    padding: 20px
     background-color: $main_bgc
     color: white
     form
-        display: flex
-        flex-direction: column
-        justify-content: center
-        justify-items: center
+        @extend .dflexcolumn
+        align-items: stretch
         button
             display: flex
+            align-self: center
             justify-content: center
-            justify-self: center
-            margin: 20px
+            margin: 10px
         button:hover
             background: none
             color: #ffffff
             transition: all .3s ease
         input
-            margin: 20px
+            margin: 10px
             border-radius: 7px
-            height: 25px
+            height: 15px
         textarea
-            margin: 20px
+            margin: 10px
             border-radius: 7px
     .social
         width: 270px
         color: #fff 
         margin-top: 0px        
-    ul 
-        list-style-type: none
-        display: flex
-        flex-direction: column
-        align-content: center
-        li 
-            margin-bottom: 18px
+        ul 
+            list-style-type: none
+            display: flex
+            flex-direction: column
+            align-content: center
+            li 
+                margin-bottom: 18px
     .follow_us ul 
         display: flex
         flex-wrap: wrap
