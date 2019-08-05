@@ -544,27 +544,27 @@ footer h3 {
 }
 
 .footer_block .follow_us ul .tw {
-  background-image: url("../img/social_buttons.png");
+  background-image: url("img/social_buttons.png");
   background-position-x: -1px;
 }
 
 .footer_block .follow_us ul .fb {
-  background-image: url("../img/social_buttons.png");
+  background-image: url("img/social_buttons.png");
   background-position-x: -50px;
 }
 
 .footer_block .follow_us ul .in {
-  background-image: url("../img/social_buttons.png");
+  background-image: url("img/social_buttons.png");
   background-position-x: -99px;
 }
 
 .footer_block .follow_us ul .google {
-  background-image: url("../img/social_buttons.png");
+  background-image: url("img/social_buttons.png");
   background-position-x: -149px;
 }
 
 .footer_block .follow_us ul .you {
-  background-image: url("../img/social_buttons.png");
+  background-image: url("img/social_buttons.png");
   background-position-x: -198px;
 }
 /*# sourceMappingURL=style.css.map */
